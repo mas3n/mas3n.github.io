@@ -1,131 +1,159 @@
-body{
-
-  background-image: url(http://art.teleportacia.org/observation/vernacular/stars/pusk.jpg);
+body {
+  background: white;
+  font-family: 'Abel';font-size: 16px;
+  padding: 0;
+  margin: 0;
+  background-image: url(https://cdn.hipwallpaper.com/i/97/43/ERXQlG.jpg);
 }
 
-ul.menu{
-float: left;
-padding: 0;
-margin-left: 380px;
-margin-top: 50px;
-position: fixed;
+.main {
+  width: 1400px;
+  height: 712px;
+  margin: auto;
+  background-image: url(https://cdn.hipwallpaper.com/i/78/76/kYEew8.jpg);
+  padding-top: 50px;
 }
 
-li.limenu{
-list-style-type: none;
-float: left;
-
-border-style: outset;
-margin: 15px;
-box-shadow: 2px 2px 4px black;
-width: 100px;
-height: 50px;
+.maininfo {
+  width: 1400px;
+  height: 1000px;
+  margin: auto;
+  background-image: url(https://cdn.hipwallpaper.com/i/78/76/kYEew8.jpg);
+  padding-top: 50px;
 }
 
-li.limenu a:hover{
-  border-style: inset;
-}
-
-a.amenu{
-display: block;
-padding: 18px;
-text-decoration: none;
-color: white;
-text-align: center;
-background: #8c8c8c;
-}
-
-#active{
-  border-style: inset;
-
-}
-
-h1.clusfuk{
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  text-shadow: -5px -7px  white;
-  font-size: 75px;
-  color: #53f422;
-  margin-top: 10px;
-  animation:blinkingText 1s infinite;
-}
-
-h1.welcome{
-  font-family: 'Bungee Outline';
-  float: right;
-  font-size: 80px;
-  margin-top: -160px;
-  margin-right: 100px;
-  color: yellow;
-  text-shadow: 5px 5px  black;
-  animation: shake 0.5s;
-  animation-iteration-count: infinite;
-}
-
-.pxlsmile{
+.mas3n {
+  width: 220px;
   height: 150px;
-  width: 150px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -140px;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.8);
+  border-bottom: 4px solid #7810ef;
+  margin-top: 0px;
+  top: 0px;
+  margin-left: 60px;
+  box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
 }
 
-.main{
-  height: 50px;
-  width: 90%;
-  margin-top: 150px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #fff;
+.mas3n:hover{
+  animation: float 6s ease-in-out infinite;
 }
 
-h1.error{
-  color: red;
-  font-size: 25px;
-  margin-left: 10px;
-  float: left;
-  font-family: 'Sarpanch';
-  margin-top: 5px;
-}
-
-.coolest{
-  width: 90%;
-  height: 200px;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  color: #af66ff;
+.namn{
+  color: white;
+  font-size: 30px;
   text-align: center;
+}
+
+.designer{
+  color: #e0e0e0;
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 8.5px;
+}
+
+.hem{
+  width: 80%;
+  height: 700px;
   margin: auto;
 }
 
-@keyframes blinkingText{
-	0%{		color: #53f422;	}
-
-  25%{  color: yellow; }
-
-	50%{	color: blue;	}
-
-  75%{  color: purple;}
-
-	100%{	color: #53f422;	}
+.top{
+  width: 100%;
+  height: 240px;
+  float: left;
+  background-color: #ededed;
+  box-shadow: 2.5px 2.5px 5px black;
+  background-image: url(https://cdn-images-1.medium.com/max/2000/1*e8y2jeBaZOgfYlSfz9FL5w.jpeg);
+  background-repeat: no-repeat;
+  border-bottom: 4px solid #7810ef;
 }
 
-@keyframes shake {
+.left{
+  width: 50%;
+  height: 432px;
+  float: left;
+  margin-left: 280px;
+  margin-top: 18px;
+  background-color: #ededed;
+  box-shadow: 2.5px 2.5px 5px black;
+  border-bottom: 4px solid #7810ef;
+  border-radius: 1px;
+}
+
+
+.welcome{
+  font-size: 120px;
+  text-align: center;
+  font-family: 'Open Sans Condensed';
+  color: #0e0420;
+  text-shadow: 3px 3px 4px black;
+  animation: fade 5s infinite;
+  position: relative;
+  margin-top: 70px;
+}
+
+#active{
+  border-bottom: 4px solid #7810ef;
+  margin-top: 1px;
+  color: #fff;
+  text-shadow: 1px 1px 4px #7810ef;
+}
+
+ul.navigator{
+  margin-left: 300px;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-top: 0px;
+}
+
+li.list{
+  display: inline;
+  float: left;
+  background: rgba(0, 0, 0, 0.8);
+
+}
+
+li.list a.active{
+  color: #fff;
+  border-bottom: 4px solid #7810ef;
+}
+
+li.list a:hover {
+  color: #fff;
+  border-bottom: 4px solid #7810ef;
+  text-shadow: 1px 1px 4px #7810ef;
+  margin-top: 1px;
+  transition: 0.3s;
+}
+
+a.text{
+  display: block;
+  padding: 14px;
+  color: #b5b5b5;
+  text-decoration: none;
+}
+
+@keyframes fade {
   0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -2px) rotate(-1deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(1deg); }
   50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(3px, 1px) rotate(-1deg); }
-  80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(-1deg); }
+  100% { transform: translate(1px, 1px) rotate(0deg); }
 }
 
-.rainbow {
-  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
-  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
-  color:transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-5px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
 }
