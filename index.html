@@ -2,42 +2,70 @@
 <html lang="sv" dir="swe">
   <head>
     <meta charset="utf-8">
-    <title>Home - Mas3n</title>
-    <link rel="shortcut icon" href="https://www.freeiconspng.com/uploads/purple-circle-icon-5.png" type="image/x-icon" />
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <link href="index.css" rel="stylesheet" type="text/css" />
-    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Open Sans Condensed:300' rel='stylesheet'>
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
 
-    <div class="mas3n">
-      <p class="namn"><b>Linus Bergström</b></p>
-      <p class="designer">designer</p>
-    </div>
-
-    <ul class="navigator">
-      <li class="list"><a class="text" id="active" href="#">Home</a></li>
-      <li class="list"><a class="text" href="info.html">Info</a></li>
-      <li class="list"><a class="text" href="pictures.html">Pictures</a></li>
-      <li class="list"><a class="text" href="cv.html">CV</a></li>
-      <li class="list"><a class="text" href="music.html">Music</a></li>
-      <li class="list"><a class="text" href="contact.html">Contact</a></li>
-    </ul>
-
-    <div class="main">
-
-
-      <div class="hem">
-        <div class="top">
-          <h1 class="welcome">W E L C O M E</h1>
-        </div>
-        <div class="left">
-
-        </div>
- 
+    <div class="bg">
+      <div class="menu">
+        <nav>
+          <div class="logo">
+              <h2>Mas3n</h2>
+          </div>
+          <div class="buttons">
+              <a class="button" href="index.html">Home</a>
+              <a class="button" href="#">About</a>
+              <a class="button" href="#">Work</a>
+              <a class="button" href="#">Contact</a>
+          </div>
+        </nav>
       </div>
-
+      <div class="side" ><a class="sideclass" href="#"><h3>Home</h3></a></div>
+      <div class="side2"><a class="sideclass2" href="#"><h3>About</h3></a></div>
+      <div class="side3"></div>
     </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.side').hover(function(){
+          $('.side').addClass('active');
+          $('.bg').addClass('active');
+          $('.sideclass').addClass('active');
+          $('.side2').removeClass('active2');
+          $('.bg').removeClass('active2');
+          $('.sideclass2').removeClass('active2');
+          $('.side3').removeClass('active3');
+          $('.bg').removeClass('active3');
+          $('.sideclass2').removeClass('active3');
+        })
+        $('.side2').hover(function(){
+          $('.side2').addClass('active2');
+          $('.bg').addClass('active2');
+          $('.sideclass2').addClass('active2');
+          $('.side3').removeClass('active3');
+          $('.bg').removeClass('active3');
+          $('.sideclass2').removeClass('active3');
+          $('.side').removeClass('active');
+          $('.bg').removeClass('active');
+          $('.sideclass').removeClass('active');
+        })
+        $('.side3').hover(function(){
+          $('.side3').addClass('active3');
+          $('.bg').addClass('active3');
+          $('.sideclass2').addClass('active3');
+          $('.side2').removeClass('active2');
+          $('.bg').removeClass('active2');
+          $('.sideclass2').removeClass('active2');
+          $('.side').removeClass('active');
+          $('.bg').removeClass('active');
+          $('.sideclass').removeClass('active');
+        })
+      });
+    </script>
+
   </body>
 </html>
