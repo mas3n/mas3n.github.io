@@ -104,7 +104,6 @@ body, html {
   margin-left: 10px;
   transform: translateY(-55px);
   text-decoration: none;
-  border-radius: 50%;
 }
 
 .fa-google {
@@ -115,7 +114,6 @@ body, html {
   margin-left: 10px;
   transform: translateY(-55px);
   text-decoration: none;
-  border-radius: 50%;
 }
 
 /*Pages*/
@@ -126,7 +124,7 @@ body, html {
   margin-left: auto;
   margin-right: auto;
   opacity: 0;
-  margin-top: -120px;
+  margin-top: -130px;
 }
 
 .work.on{
@@ -145,8 +143,17 @@ body, html {
 }
 
 .bild1.up{
-  border-radius: 50%;
-  box-shadow: 0px 1px 4px #111419;
+  border-radius: 10%;
+}
+
+.photos1{
+  display: block;
+  padding: 1px;
+  text-align: center;
+  text-decoration: none;
+  color: #272727;
+  height: 100%;
+  width: 100%;
 }
 
 .photos{
@@ -173,8 +180,18 @@ body, html {
 }
 
 .bild2.up{
-  border-radius: 50%;
+  border-radius: 10%;
   box-shadow: 0px 1px 4px #111419;
+}
+
+.logos1{
+  display: block;
+  padding: 1px;
+  text-align: center;
+  text-decoration: none;
+  color: #272727;
+  height: 100%;
+  width: 100%;
 }
 
 .logos{
@@ -202,8 +219,18 @@ body, html {
 }
 
 .bild3.up{
-  border-radius: 50%;
+  border-radius: 10%;
   box-shadow: 0px 1px 4px #111419;
+}
+
+.models1{
+  display: block;
+  padding: 1px;
+  text-align: center;
+  text-decoration: none;
+  color: #272727;
+  height: 100%;
+  width: 100%;
 }
 
 .models{
@@ -231,8 +258,18 @@ body, html {
 }
 
 .bild4.up{
-  border-radius: 50%;
+  border-radius: 10%;
   box-shadow: 0px 1px 4px #111419;
+}
+
+.favorites1{
+  display: block;
+  padding: 1px;
+  text-align: center;
+  text-decoration: none;
+  color: #272727;
+  height: 100%;
+  width: 100%;
 }
 
 .favorites{
