@@ -23,6 +23,12 @@
       <div class="side" ><a class="sideclass" href="#"><h3>About</h3></a></div>
       <div class="side2"><a class="sideclass2" href="#"><h3>Work</h3></a></div>
       <div class="side3"><a class="sideclass3" href="#"><h3>Contact</h3></a></div>
+      <div class="work">
+        <div class="bild1"><p class="photos">Photos</p></div>
+        <div class="bild2"><p class="logos">Logos</p></div>
+        <div class="bild3"><p class="models">3D-Models</p></div>
+        <div class="bild4"><p class="favorites">Favorites</p></div>
+      </div>
     </div>
 
 
@@ -47,6 +53,7 @@
           $('.side2').removeClass('active2');
             $('.bg').removeClass('active2');
               $('.sideclass2').removeClass('active2');
+                $('.work').removeClass('on');
           $('.side3').removeClass('active3');
             $('.bg').removeClass('active3');
               $('.sideclass3').removeClass('active3');
@@ -55,6 +62,7 @@
           $('.side2').addClass('active2');
             $('.bg').addClass('active2');
               $('.sideclass2').addClass('active2');
+                $('.work').addClass('on');
           $('.side3').removeClass('active3');
             $('.bg').removeClass('active3');
               $('.sideclass3').removeClass('active3');
@@ -69,9 +77,27 @@
           $('.side2').removeClass('active2');
             $('.bg').removeClass('active2');
               $('.sideclass2').removeClass('active2');
+                $('.work').removeClass('on');
           $('.side').removeClass('active');
             $('.bg').removeClass('active');
               $('.sideclass').removeClass('active');
+        })
+
+        $('.bild1').hover(function() {
+          $('.bild1').toggleClass('up');
+            $('.photos').toggleClass('up');
+        })
+        $('.bild2').hover(function() {
+          $('.bild2').toggleClass('up');
+            $('.logos').toggleClass('up');
+        })
+        $('.bild3').hover(function() {
+          $('.bild3').toggleClass('up');
+            $('.models').toggleClass('up');
+                })
+        $('.bild4').hover(function() {
+          $('.bild4').toggleClass('up');
+            $('.favorites').toggleClass('up');
         })
       });
     </script>

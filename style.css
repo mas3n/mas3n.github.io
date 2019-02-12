@@ -52,7 +52,7 @@ body, html {
 .menu{
   height: 80px;
   width: 100%;
-  background-color:rgba(226, 226, 226, 0.9);;
+  background-color:rgba(226, 226, 226, 0.9);
   box-shadow: 0px 5px 8px #111419;
 }
 
@@ -117,6 +117,139 @@ body, html {
   text-decoration: none;
   border-radius: 50%;
 }
+
+/*Pages*/
+
+.work{
+  width: 500px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0;
+  margin-top: -120px;
+}
+
+.work.on{
+  opacity: 1;
+}
+
+.bild1{
+  width: 49%;
+  height: 49%;
+  background-image: url("Fotoholder4.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: left;
+  margin: 2px;
+}
+
+.bild1.up{
+  border-radius: 50%;
+  box-shadow: 0px 1px 4px #111419;
+}
+
+.photos{
+  opacity: 0;
+  text-align: center;
+  margin-top: 105px;
+  font-size: 35px;
+  color: #262626;
+}
+
+.photos.up{
+  opacity: 1;
+}
+
+.bild2{
+  width: 49%;
+  height: 49%;
+  background-image: url("Fotoholder4.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: left;
+  margin: 2px;
+}
+
+.bild2.up{
+  border-radius: 50%;
+  box-shadow: 0px 1px 4px #111419;
+}
+
+.logos{
+  opacity: 0;
+  text-align: center;
+  margin-top: 105px;
+  font-size: 35px;
+  color: #262626;
+}
+
+.logos.up{
+  opacity: 1;
+}
+
+
+.bild3{
+  width: 49%;
+  height: 49%;
+  background-image: url("Fotoholder4.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: left;
+  margin: 2px;
+}
+
+.bild3.up{
+  border-radius: 50%;
+  box-shadow: 0px 1px 4px #111419;
+}
+
+.models{
+  opacity: 0;
+  text-align: center;
+  margin-top: 105px;
+  font-size: 35px;
+  color: #262626;
+}
+
+.models.up{
+  opacity: 1;
+}
+
+
+.bild4{
+  width: 49%;
+  height: 49%;
+  background-image: url("Fotoholder4.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: left;
+  margin: 2px;
+}
+
+.bild4.up{
+  border-radius: 50%;
+  box-shadow: 0px 1px 4px #111419;
+}
+
+.favorites{
+  opacity: 0;
+  text-align: center;
+  margin-top: 105px;
+  font-size: 35px;
+  color: #262626;
+}
+
+.favorites.up{
+  opacity: 1;
+}
+
+
+
+/*Pages*/
 
 /*Slide1*/
 
