@@ -21,9 +21,9 @@
           </div>
         </nav>
       </div>
-      <div class="side" ><a class="sideclass" href="#"><h3>Home</h3></a></div>
-      <div class="side2"><a class="sideclass2" href="#"><h3>About</h3></a></div>
-      <div class="side3"></div>
+      <div class="side" ><a class="sideclass" href="#"><h3>Test</h3></a></div>
+      <div class="side2"><a class="sideclass2" href="#"><h3>Test2</h3></a></div>
+      <div class="side3"><a class="sideclass3" href="#"><h3>Test3</h3></a></div>
     </div>
 
 
@@ -31,38 +31,48 @@
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script type="text/javascript">
       $(document).ready(function(){
+        $('.side').addClass('active');
+          $('.bg').addClass('active');
+            $('.sideclass').addClass('active');
+        $('.side2').removeClass('active2');
+          $('.bg').removeClass('active2');
+            $('.sideclass2').removeClass('active2');
+        $('.side3').removeClass('active3');
+          $('.bg').removeClass('active3');
+            $('.sideclass3').removeClass('active3');
+
         $('.side').hover(function(){
           $('.side').addClass('active');
-          $('.bg').addClass('active');
-          $('.sideclass').addClass('active');
+            $('.bg').addClass('active');
+              $('.sideclass').addClass('active');
           $('.side2').removeClass('active2');
-          $('.bg').removeClass('active2');
-          $('.sideclass2').removeClass('active2');
+            $('.bg').removeClass('active2');
+              $('.sideclass2').removeClass('active2');
           $('.side3').removeClass('active3');
-          $('.bg').removeClass('active3');
-          $('.sideclass2').removeClass('active3');
+            $('.bg').removeClass('active3');
+              $('.sideclass3').removeClass('active3');
         })
         $('.side2').hover(function(){
           $('.side2').addClass('active2');
-          $('.bg').addClass('active2');
-          $('.sideclass2').addClass('active2');
+            $('.bg').addClass('active2');
+              $('.sideclass2').addClass('active2');
           $('.side3').removeClass('active3');
-          $('.bg').removeClass('active3');
-          $('.sideclass2').removeClass('active3');
+            $('.bg').removeClass('active3');
+              $('.sideclass3').removeClass('active3');
           $('.side').removeClass('active');
-          $('.bg').removeClass('active');
-          $('.sideclass').removeClass('active');
+            $('.bg').removeClass('active');
+              $('.sideclass').removeClass('active');
         })
         $('.side3').hover(function(){
           $('.side3').addClass('active3');
-          $('.bg').addClass('active3');
-          $('.sideclass2').addClass('active3');
+            $('.bg').addClass('active3');
+              $('.sideclass3').addClass('active3');
           $('.side2').removeClass('active2');
-          $('.bg').removeClass('active2');
-          $('.sideclass2').removeClass('active2');
+            $('.bg').removeClass('active2');
+              $('.sideclass2').removeClass('active2');
           $('.side').removeClass('active');
-          $('.bg').removeClass('active');
-          $('.sideclass').removeClass('active');
+            $('.bg').removeClass('active');
+              $('.sideclass').removeClass('active');
         })
       });
     </script>

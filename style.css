@@ -11,8 +11,10 @@ body, html {
   height: 100%;
 }
 
+/*Background*/
+
 .bg {
-  background-image: url("Woods.jpg");
+  background-color: blue;
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -44,10 +46,13 @@ body, html {
   background-size: cover;
 }
 
+/*Background*/
+/*Menu*/
+
 .menu{
   height: 80px;
   width: 100%;
-  background: #e2e2e2;
+  background-color:rgba(226, 226, 226, 0.9);;
   box-shadow: 0px 5px 8px #111419;
 }
 
@@ -55,12 +60,12 @@ body, html {
   color: #272727;
   font-size: 25px;
   line-height: 80px;
-  margin-left: 10px;
+  margin-left: 45px;
 }
 
 .menu nav .buttons{
   float: right;
-  margin-right: 30px;
+  margin-right: 45px;
   color: #272727;
 }
 
@@ -73,14 +78,18 @@ body, html {
   color: #272727;
 }
 
+/*Menu*/
+/*Slide1*/
+
 .sideclass{
   display: block;
-  width: 100%;
-  padding: 15px;
+  width: 70%;
+  padding: 12.5px;
   text-decoration: none;
   color: #272727;
   float: left;
   text-align: center;
+  cursor: auto;
 }
 
 .sideclass.active{
@@ -91,7 +100,7 @@ body, html {
 .side{
   background: #e2e2e2;
   width: 200px;
-  height: 50px;
+  height: 40px;
   margin-top: 15px;
   opacity: 0.6;
 }
@@ -103,18 +112,21 @@ body, html {
   box-shadow: 0px 5px 8px #111419;
 }
 
+/*Slide1*/
+/*Slide2*/
 
 .sideclass2{
   display: block;
-  width: 100%;
-  padding: 15px;
+  width: 70%;
+  padding: 12.5px;
   text-decoration: none;
   color: #272727;
   float: left;
   text-align: center;
+  cursor: auto;
 }
 
-.sideclass2.active{
+.sideclass2.active2{
   -webkit-transform: scaleX(0.75);
   transform: scaleX(0.75);
 }
@@ -122,7 +134,7 @@ body, html {
 .side2{
   background: #e2e2e2;
   width: 200px;
-  height: 50px;
+  height: 40px;
   margin-top: 15px;
   opacity: 0.6;
 }
@@ -134,17 +146,22 @@ body, html {
   box-shadow: 0px 5px 8px #111419;
 }
 
-.sideclass2{
+
+/*Slide2*/
+/*Slide3*/
+
+.sideclass3{
   display: block;
-  width: 100%;
-  padding: 15px;
+  width: 70%;
+  padding: 12.5px;
   text-decoration: none;
   color: #272727;
   float: left;
   text-align: center;
+  cursor: auto;
 }
 
-.sideclass2.active2{
+.sideclass3.active3{
   -webkit-transform: scaleX(0.75);
   transform: scaleX(0.75);
 }
@@ -152,7 +169,7 @@ body, html {
 .side3{
   background: #e2e2e2;
   width: 200px;
-  height: 50px;
+  height: 40px;
   margin-top: 15px;
   opacity: 0.6;
 }
@@ -163,3 +180,5 @@ body, html {
   transform: scaleX(1.5) scaleY(1.1);
   box-shadow: 0px 5px 8px #111419;
 }
+
+/*Slide3*/
